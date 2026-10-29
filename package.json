@@ -1,0 +1,25 @@
+{
+  "name": "dsh-douyin-publish",
+  "version": "0.1.0",
+  "description": "视频发布-抖音：抖音创作者中心自动发布（上传/标题/话题标签/挂车检查/定时发布/回执校验），多账号独立 Chrome 档案。",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["deepseek-harness", "dsh-plugin", "douyin", "publish", "video", "定时发布"],
+  "main": "lib/host.js",
+  "exports": {
+    ".": "./lib/host.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["lib", "locale", "icon.svg", "cordis.patch.yml", "README.md"],
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
