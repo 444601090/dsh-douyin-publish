@@ -1,0 +1,5 @@
+# 视频发布-抖音（dsh-douyin-publish）
+- insert:
+    - id: douyin-publish
+      name: 'dsh-douyin-publish'
+      config: {}
