@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Douyin Publisher",
+    "description": "Automates Douyin Creator Center publishing: upload, title, hashtag topics, cart capability check, scheduled publish and verification, with isolated Chrome profiles per account."
+  }
+}
